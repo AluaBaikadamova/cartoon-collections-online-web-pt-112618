@@ -22,8 +22,7 @@ if (array.length>0)
     return x
    break
   
-else
-  return nil
+
 end
 end
 end
