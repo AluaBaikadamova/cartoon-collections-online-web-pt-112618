@@ -19,7 +19,7 @@ if (array.length>0)
   array.each do |x| 
   if cheese_types.include?(x) 
     return x
-   break
+   
   end
 end
 end
