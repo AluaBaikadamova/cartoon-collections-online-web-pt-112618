@@ -4,7 +4,7 @@ return a
 end
 
 def summon_captain_planet(array)# code an argument h
-  array.collect{ |x| x.charAt(0).toUpperCase() +x.slice(1)+ "!" }  
+  array.collect{ |x| x.first.upcase+ "!" }  
 
 end
 
