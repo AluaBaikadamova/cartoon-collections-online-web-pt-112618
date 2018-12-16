@@ -4,7 +4,7 @@ return a
 end
 
 def summon_captain_planet(array)# code an argument h
-  array.collect{ |x| x.titleize+ "!" }  
+  array.collect{ |x| x.capitalize+ "!" }  
 
 end
 
