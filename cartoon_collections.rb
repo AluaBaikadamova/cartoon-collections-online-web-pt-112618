@@ -21,7 +21,7 @@ if (array.length>0)
   if cheese_types.include?(x) 
     return x
    break
-  end
+  
 else
   return nil
 end
